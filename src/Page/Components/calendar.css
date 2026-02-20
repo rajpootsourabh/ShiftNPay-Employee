@@ -1,0 +1,8 @@
+.fc-button-group button.fc-dayGridMonth-button,
+ .fc-button-group button.fc-timeGridWeek-button {
+    display: none;
+}
+a{
+    text-decoration: 'none !important';
+    color: 'black !important';
+}

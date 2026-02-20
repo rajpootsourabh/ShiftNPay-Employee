@@ -1,0 +1,280 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.background-image {
+  background-image: url("./Page/assets/img/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 850px;
+}
+.section-logo {
+  background-image: url("./Page/assets/img/Section.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.fc-event-duration {
+  margin-top: 5px;
+  font-size: 0.8em;
+  color: #666;
+}
+
+
+/* .fc-day-duration {
+  margin-top: 0px;
+  font-size: 1em;
+  color: #666;
+} */
+
+.fc-day-duration {
+  margin-top: 5px;
+  font-size: 1em;
+  color: #666;
+}
+fc .fc-timegrid-event-harness {
+  min-height: 100px;
+  /* Set a minimum height for the event harness */
+  height: auto !important;
+}
+
+.fc .fc-timegrid-event-harness:hover {
+  z-index: 5 !important;
+}
+
+.fc .fc-timegrid-event {
+  height: auto !important;
+  /* Ensure event adapts to content */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: lightgray !important;
+  border: none !important;
+}
+
+.fc .fc-timegrid-slot {
+  min-height: 100px;
+  /* Ensure slot adapts to content */
+
+}
+
+.fc-scrollgrid-sync-inner {
+  height: auto !important;
+  min-height: 100px;
+  /* Adjust as necessary */
+
+}
+
+.fc .fc-timegrid-event-harness>a {
+  height: 100% !important;
+
+}
+
+.fc-button.fc-button-primary {
+  text-transform: none !important; /* Ensure no additional transformations are applied */
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+
+}
+ul.pagination {
+  display: flex;
+  gap: 10px;
+
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li a {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+}
+
+.pagination li a:hover {
+  background-color: #f2f2f2;
+}
+
+.pagination .active-link {
+  background-color: green;
+  color: white;
+  border-color: green;
+}
+/* slick-theme.css (Example) */
+.slick-prev,
+.slick-next {
+  font-size: 1rem;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: black;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #FFB525; /* Change color on hover */
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+/* Adjust slider dots style */
+.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  color: transparent;
+  background: transparent;
+  border: 0;
+  outline: none;
+  display: block;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.slick-dots li button:before {
+  font-size: 0;
+  line-height: 10px;
+  color: transparent;
+  background: #49454F; /* Dot color */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  content: "•";
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-dots li.slick-active button:before {
+  background: #FFB525; /* Active dot color */
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+  display: flex;
+}
+.fc-timegrid-event-harness.fc-timegrid-event-harness-inset {
+  height: 50px;
+}
+.p-2.flex.cursor-pointer.items-center.gap-4:hover{
+  background: ghostwhite;
+}
+.react-datepicker-wrapper{
+  width: 100%;
+}
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+  margin-right: 10px;
+  width: 50px;
+}
+.bellIconInList {
+  align-items: center;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+}
+.svg-inline--fa {
+  display: inline-block;
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
+.fs-9 {
+  font-size: .8rem !important;
+}
+.px-2.px-sm-3.py-3.notification-card.position-relative.unread.border-bottom{
+  background: lightgray;
+}
+

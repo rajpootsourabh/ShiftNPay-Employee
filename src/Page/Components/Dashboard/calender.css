@@ -1,0 +1,16 @@
+.active-date {
+    background-color: green !important;
+    border-radius: 30px !important;
+    padding: 8px 6px !important;
+}
+.DateOfWeek{
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
